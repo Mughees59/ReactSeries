@@ -1,0 +1,26 @@
+{
+  "name": "reactseries",
+  "version": "1.0.0",
+  "description": "Learning React Tutorial",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mughees59/ReactSeries.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial"
+  ],
+  "author": "mughees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mughees59/ReactSeries/issues"
+  },
+  "homepage": "https://github.com/Mughees59/ReactSeries#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
