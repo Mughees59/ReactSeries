@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client"
 
 // Following pattern is (core of react) not the right way or you can say easy way to implemnt the element, there is another appraoch introduce by react developers
 const reactElement = React.createElement("h1", { id: "heading" }, "Tutorial React ");
+//React.creatElement => ReacetElement-> JS Object=> HTMLELEMENT(Render)
 
 
 
@@ -13,10 +14,14 @@ const reactElement = React.createElement("h1", { id: "heading" }, "Tutorial Reac
 
 const reactElementinJSX = <h1 id="heading">Heading in JSX</h1> // JS engine understands ECMAScript
 // So this code isnt the JS code and over browser only understands JS code because it only run ECAMScripts, here parcel comes in the party it converts all the JSX code to make it understanable for JS Engine
-// JSX( Transpiled before it reaches the JS Engine)
+// JSX( Transpiled(converted) before it reaches the JS Engine)
+// Parcel use -> Babel -> to convert the code for JS Engine
 
 console.log(reactElement+ reactElementinJSX);
+//JSX => React.creatElement => ReacetElement-> JS Object=> HTMLELEMENT(Render)
 
 const reactroot = ReactDOM.createRoot(document.getElementById("root"));
 
 reactroot.render(reactElementinJSX);
+
+// HomeWork Try to find multiple attributes for JSX e.g. class, img etc..

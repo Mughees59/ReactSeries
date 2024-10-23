@@ -4,7 +4,7 @@
   "description": "Learning React Tutorial",
   "scripts": {
     "start": "parcel index.html",
-    "build":"parcel build index",
+    "build":"parcel build index", 
     "test": "jest"
   },
   "repository": {
